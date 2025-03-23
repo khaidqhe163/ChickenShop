@@ -1,0 +1,28 @@
+.filter-item {
+    border-bottom: 1px solid grey;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.filter-item:hover p {
+    color: #331a75;
+}
+
+.category {
+    font-weight: bold !important;
+    text-decoration: underline;
+    font-size: 18px !important;
+    margin-top: 20px;
+}
+
+.active-item {
+    background-color: #331a75;
+    color: white;
+    padding: 2px;
+}
+
+.active-item:hover p {
+    background-color: #331a75;
+    color: white;
+}
